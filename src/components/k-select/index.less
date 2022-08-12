@@ -1,0 +1,87 @@
+.k-select.ant-select-single:not(.ant-select-customize-input) {
+  .ant-select-selector {
+    height: 38px;
+    padding-left: 16px;
+    border-radius: 4px;
+    .ant-select-selection-search-input {
+      height: 38px;
+    }
+
+    .ant-select-selection-search {
+      height: 38px;
+    }
+
+    .ant-select-selection-placeholder {
+      line-height: 36px;
+    }
+
+    .ant-select-selection-item {
+      line-height: 36px;
+    }
+  }
+}
+
+.k-select.ant-select-open {
+  .k-select-arrow-icon {
+    transform: rotate(180deg);
+  }
+}
+
+.k-select-close-icon {
+  position: relative;
+  top: -2px;
+  right: 5px;
+  width: 18px;
+  height: 18px;
+}
+
+.k-select-arrow-icon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+
+.k-select-dropdown-container.ant-select-dropdown {
+  border-radius: 4px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.ant-select-item-empty > .ant-result.ant-result-info {
+  display: flex;
+  justify-content: center;
+}
+.ant-select-dropdown.k-select-dropdown-container.ant-select-dropdown-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130px;
+}
+.k-select-dropdown-container.ant-select-dropdown.ant-select-dropdown-hidden {
+  display: none;
+}
+.rc-virtual-list-holder-inner > .ant-select-item.ant-select-item-option {
+  padding: 8px 16px;
+}
+.ant-spin.ant-spin-show-text .ant-spin-text {
+  display: block;
+  padding-top: 5px;
+  color: #bfbfbf;
+}
+.ant-select-dropdown.k-select-dropdown-container.ant-select-dropdown-empty
+  > div
+  > .ant-select-item-empty
+  > .ant-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-spin.ant-spin-show-text.ant-spin-spinning
+  > .anticon.anticon-loading.anticon-spin.ant-spin-dot {
+  color: #bfbfbf;
+}
+
+.k-select.ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+.k-select.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: #ffa21a;
+  box-shadow: 0 0 4px 0 rgba(217, 128, 11, 0.2);
+}

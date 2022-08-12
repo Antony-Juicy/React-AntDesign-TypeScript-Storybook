@@ -1,0 +1,63 @@
+.k-rangepicker.ant-picker {
+  width: 280px;
+  height: 38px;
+  padding: 8px 10px 8px 16px;
+  border-radius: 4px;
+}
+
+.k-rangepicker.ant-picker:hover {
+  border-color: #ffa21a;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(217, 128, 11, 0.2);
+}
+
+.k-rangepicker.ant-picker.ant-picker-disabled {
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+.k-rangepicker.ant-picker > .ant-picker-input > input:hover {
+  border-color: #ffa21a;
+  cursor: pointer;
+}
+.k-rangepicker.ant-picker.ant-picker-disabled > .ant-picker-input > input:hover {
+  border-color: #ffa21a;
+  cursor: not-allowed;
+}
+//额外的弹出日历
+.k-dropdownClassName.ant-picker-dropdown.ant-picker-dropdown-placement-bottomLeft
+  > .ant-picker-panel-container {
+  border-radius: 4px;
+}
+
+//悬浮样式 箭头
+.k-dropdownClassName.ant-picker-dropdown
+  > .ant-picker-range-wrapper.ant-picker-date-range-wrapper
+  > .ant-picker-range-arrow {
+  display: none;
+}
+
+.k-dropdownClassName.ant-picker-dropdown-range {
+  padding: 0;
+}
+
+.k-rangepicker.ant-picker.ant-picker-range > .ant-picker-range-separator {
+  padding: 0;
+  padding-right: 17px;
+}
+.ant-picker.ant-picker-range.k-rangepicker > .ant-picker-suffix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.25);
+}
+.ant-picker.ant-picker-range.k-rangepicker > .ant-picker-suffix > *:not(:last-child) {
+  margin-right: -16px;
+}
+.ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-range-end-single):not(.ant-picker-cell-range-start)
+  .ant-picker-cell-inner {
+  border-radius: 0 4px 4px 0;
+}
+.ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-range-start-single):not(.ant-picker-cell-range-end)
+  .ant-picker-cell-inner {
+  border-radius: 4px 0 0 4px;
+}

@@ -1,0 +1,127 @@
+.k-modal-close-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.k-modal-base-modal {
+
+  .ant-modal-content {
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .ant-modal-header {
+    padding: 16px 40px;
+
+    .ant-modal-title {
+      line-height: 24px;
+      height: 24px;
+      font-weight: 600;
+      color: #262626;
+      text-align: center;
+    }
+  }
+
+  .ant-modal-body {
+    font-size: 14px;
+    color: #262626;
+    line-height: 22px;
+  }
+
+  .ant-modal-footer {
+    padding: 20px;
+  }
+
+  .ant-modal-close-x {
+    font-size: 0;
+  }
+
+}
+
+.k-modal-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+
+  img {
+    width: 24px;
+    height: 25px;
+  }
+}
+
+.k-modal-mr8 {
+  margin-right: 8px;
+}
+
+.k-modal-base-confirm {
+  background: #FFFFFF;
+  border-radius: 8px;
+  overflow: hidden;
+
+  .k-modal-title-node {
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 64px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #262626;
+    line-height: 24px;
+  }
+
+  .ant-modal-content {
+    border-radius: 8px;
+
+    .ant-modal-close {
+      display: none;
+    }
+
+    .ant-modal-header {
+      padding: 0 24px;
+      height: 64px;
+      border-bottom: none;
+    }
+
+    .ant-modal-body {
+      padding: 40px 24px 0 24px;
+      font-size: 14px;
+      color: #262626;
+      text-align: center;
+      line-height: 22px;
+    }
+
+    .ant-modal-footer {
+      margin-top: 20px;
+      padding: 24px 24px 44px 24px;
+      border-top: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .ant-modal-footer ant-btn+.ant-btn:not(.ant-dropdown-trigger) {
+      margin-left: 16px;
+    }
+  }
+
+}
+
+.k-modal-no-children {
+  .ant-modal-body {
+    padding: 0 !important;
+  }
+}
+
+.k-modal-base-modal.k-modal-bth-middle {
+  .ant-modal-footer {
+    text-align: center;
+  }
+}
+
+.k-modal-base-confirm.k-modal-bth-middle {
+  .ant-modal-footer {
+    justify-content: center;
+  }
+}
