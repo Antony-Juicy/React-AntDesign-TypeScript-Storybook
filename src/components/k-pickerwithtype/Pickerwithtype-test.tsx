@@ -1,5 +1,4 @@
 import { DatePicker } from 'antd';
-
 import KPickerWithtype from './index';
 import './Pickerwithtype-test.less';
 
