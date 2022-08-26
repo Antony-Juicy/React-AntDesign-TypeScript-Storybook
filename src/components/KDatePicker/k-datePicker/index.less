@@ -1,0 +1,46 @@
+.k-datepicker.ant-picker {
+  width: 280px;
+  height: 38px;
+  padding: 8px 10px 8px 16px;
+  border-radius: 4px;
+}
+
+.k-datepicker.ant-picker:hover {
+  border-color: #ffa21a;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(217, 128, 11, 0.2);
+  cursor: pointer;
+}
+.k-datepicker.ant-picker:hover,
+.ant-picker-focused {
+  border-color: #ffa21a;
+  border-radius: 4px;
+  box-shadow: 0 0 4px 0 rgba(217, 128, 11, 0.2);
+  cursor: pointer;
+}
+.k-datepicker.ant-picker > .ant-picker-input > input:hover {
+  border-color: #ffa21a;
+  cursor: pointer;
+}
+.k-datepicker.ant-picker.ant-picker-disabled > .ant-picker-input > input:hover {
+  border-color: #ffa21a;
+  cursor: not-allowed;
+}
+
+.k-datepicker.ant-picker.ant-picker-disabled {
+  border-color: #d9d9d9;
+  box-shadow: none;
+}
+.k-dropdownClassName.ant-picker-dropdown.ant-picker-dropdown-placement-bottomLeft
+  > .ant-picker-panel-container {
+  border-radius: 4px;
+}
+.ant-picker.k-datepicker > .ant-picker-input > .ant-picker-suffix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.25);
+}
+.ant-picker.k-datepicker > .ant-picker-input > .ant-picker-suffix > *:not(:last-child) {
+  margin-right: -16px;
+}
